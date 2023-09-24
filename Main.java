@@ -32,12 +32,19 @@ public class Main
                             switch (a1)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -48,13 +55,19 @@ public class Main
                             switch (a2)
                             {
                                 case 1:
-                                    System.out.println(null);
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -65,12 +78,19 @@ public class Main
                             switch (a3)
                             {
                                 case 1:
+                                    System.out.println("");
+
                                 break;
                                 case 2:
+                                    System.out.println("");
                                 break;
+
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -81,12 +101,19 @@ public class Main
                             switch (a4)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -104,12 +131,19 @@ public class Main
                             switch (b1)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -120,12 +154,19 @@ public class Main
                             switch (b2)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -136,12 +177,19 @@ public class Main
                             switch (b3)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -152,12 +200,19 @@ public class Main
                             switch (b4)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -175,12 +230,19 @@ public class Main
                             switch (c1)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -191,12 +253,19 @@ public class Main
                             switch (c2) 
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -207,12 +276,19 @@ public class Main
                             switch (c3)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -223,12 +299,19 @@ public class Main
                             switch (c4)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -247,12 +330,19 @@ public class Main
                             switch (d1)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -263,12 +353,19 @@ public class Main
                             switch (d2)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -279,12 +376,19 @@ public class Main
                             switch (d3)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
@@ -295,12 +399,19 @@ public class Main
                             switch (d4)
                             {
                                 case 1:
+                                    System.out.println("");
                                 break;
+
                                 case 2:
+                                    System.out.println("");
                                 break;
+                                
                                 case 3:
+                                    System.out.println("");
                                 break;
+
                                 case 4:
+                                    System.out.println("");
                                 break;
                             }
                         break;
