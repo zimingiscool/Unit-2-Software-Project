@@ -16,7 +16,7 @@ public class Main
         while(true)
         {
             System.out.println("You are in a forest on an adventure. Make a move");
-            System.out.println("Choices: \n1) You enter a straight path\n2)You enter left path.\n3) You enter right path\n4) Path behind you");
+            System.out.println("Choices: \n1) You enter a straight path\n2) You enter left path.\n3) You enter right path\n4) Path behind you");
             int choice = scanner.nextInt();
             switch (choice)
             {
