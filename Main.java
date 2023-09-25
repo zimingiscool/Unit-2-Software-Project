@@ -324,7 +324,7 @@ public class Main
                 case 4:
                 //Fake Ending 2
                     System.out.println("You back to a large field of farms");
-                    System.out.println("Choices: \n1) Walk towards the Cornfield\n2) Walk towards the wheat field\n3) Walk towards the rice field\n4) Walk towards a blueberry field");
+                    System.out.println("Choices: \n1) Walk towards the cornfield\n2) Walk towards the wheat field\n3) Walk towards the rice field\n4) Walk towards a blueberry field");
                     int d = scanner.nextInt();
                     switch (d)
                     {
