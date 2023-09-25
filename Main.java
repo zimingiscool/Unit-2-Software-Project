@@ -1,8 +1,6 @@
 //Imports
 
 import java.util.Scanner;
-
-
 //Create Class
 public class Main 
 {
@@ -421,8 +419,9 @@ public class Main
                         break;
                     }
                 break;
+                //Catches User misnput or invalid input and reprints the story.
                 default:
-                            System.out.println("Invalid choice.");
+                    System.out.println("Invalid choice.");
             }
         }
         
