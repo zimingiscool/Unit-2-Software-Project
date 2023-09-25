@@ -16,13 +16,14 @@ public class Main
         while(true)
         {
             System.out.println("You are in a forest on an adventure. Make a move");
-            System.out.println("Choices: \n1) You enter a straight path\n2)You enter left path.\n3) You enter right path\n 4) Path behind you");
+            System.out.println("Choices: \n1) You enter a straight path\n2)You enter left path.\n3) You enter right path\n4) Path behind you");
             int choice = scanner.nextInt();
             switch (choice)
             {
                 case 1:
                 //Real Ending 1
-                    System.out.println("You opt for the straight path, which leads you to a serene glade with a tranquil pond");
+                    System.out.println("You opt for the straight path, which leads you to a serene glade with a tranquil pond"); 
+                    System.out.println("Choices: \n1) Search The Pond\n2) Fish In the Pond\n3) Meditate By The Pond\n4) Rest");
                     int a = scanner.nextInt();
                     switch (a)
                     {
@@ -42,7 +43,7 @@ public class Main
                                 case 3:
                                     System.out.println("");
                                 break;
-
+                                
                                 case 4:
                                     System.out.println("");
                                 break;
@@ -122,6 +123,7 @@ public class Main
                 case 2:
                     //Real Ending 2
                     System.out.println("You choose the left path, which leads you to a dark and ominous cave.");
+                    System.out.println("Choices: \n1) Explore the Cave\n2)Retreat From The Cave\n3)Gather FIrewood\n4)Rest");
                     int b = scanner.nextInt();
                     switch (b)
                     {
@@ -221,6 +223,7 @@ public class Main
                 case 3:
                 //Fake ending 1
                     System.out.println("You decide to take the right path, leading you deeper into the dense woods.");
+                    System.out.println("Choices: \n1) Continue Deeper\n2) Return to the Entrance\n3) Climb A Tree\n4) Rest");
                     int c = scanner.nextInt();
                     switch (c)
                     {
@@ -321,6 +324,7 @@ public class Main
                 case 4:
                 //Fake Ending 2
                     System.out.println("You back to a large field of farms");
+                    System.out.println("Choices: \n1) Walk towards the Cornfield\n2) Walk towards the wheat field\n3) Walk towards the rice field\n4) Walk towards a blueberry field");
                     int d = scanner.nextInt();
                     switch (d)
                     {
@@ -419,8 +423,6 @@ public class Main
                 break;
                 default:
                             System.out.println("Invalid choice.");
-
-
             }
         }
         
