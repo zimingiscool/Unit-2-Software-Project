@@ -123,7 +123,7 @@ public class Main
                 case 2:
                     //Real Ending 2
                     System.out.println("You choose the left path, which leads you to a dark and ominous cave.");
-                    System.out.println("Choices: \n1) Explore the Cave\n2)Retreat From The Cave\n3)Gather FIrewood\n4)Rest");
+                    System.out.println("Choices: \n1) Explore the Cave\n2) Retreat From The Cave\n3) Gather FIrewood\n4) Rest");
                     int b = scanner.nextInt();
                     switch (b)
                     {
