@@ -8,10 +8,11 @@ public class Main
     {
         //Variables
         int progression = 0;
+        boolean balls = true;
 
         Scanner scanner = new Scanner(System.in);        
         //Create Story Switch Statement
-        while(true)
+        while(balls = true)
         {
             System.out.println("You are in a forest on an adventure. Make a move");
             System.out.println("Choices: \n1) You enter a straight path\n2) You enter left path.\n3) You enter right path\n4) Path behind you");
@@ -27,12 +28,13 @@ public class Main
                     {
                         case 1:
                             System.out.println("1) Search the Pond: You search the pond's bottom for any signs of the artifact.");
-                            System.out.println("Choices: \n1)\n2)\n3)\n4)");
+                            System.out.println("Choices: \n1) Keep Searching \n2) Look Around\n3) Encounter With Guardian\n4) Mysterious Message");
                             int a1 = scanner.nextInt();
                             switch (a1)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 1: \nAs you carefully search the pond's bottom, your fingers brush against something hard and metallic. You pull it out, and to your astonishment, it's the artifact you've been seeking all along! With the powerful artifact in hand, you feel a surge of confidence and set off on your journey to unlock its secrets.");
+                                    balls = false;
                                 break;
 
                                 case 2:
@@ -388,7 +390,7 @@ public class Main
 
                         case 3:
                             System.out.println("3) Walk towards the rice field.");
-                            System.out.println("Choices: \n1)\n2)\n3)\n4)");
+                            System.out.println("Choices: \n1) Puzzle in the Rice Field\n2) Rice Field River\n3) Rice Field Encounter\n4) Rest By Rice Field");
                             int d3 = scanner.nextInt();
                             switch (d3)
                             {
