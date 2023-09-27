@@ -12,7 +12,7 @@ public class Main
 
         Scanner scanner = new Scanner(System.in);        
         //Create Story Switch Statement
-        while(balls = true)
+        while(balls == true)
         {
             System.out.println("You are in a forest on an adventure. Make a move");
             System.out.println("Choices: \n1) You enter a straight path\n2) You enter left path.\n3) You enter right path\n4) Path behind you");
@@ -38,15 +38,15 @@ public class Main
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 1: Despite your thorough search, you find nothing but pebbles and mud at the pond's bottom. Frustrated and disheartened, you leave the pond behind and continue your quest deeper into the forest, hoping to find other clues.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 2: While searching the pond, you accidentally awaken a guardian spirit of the forest. The spirit challenges you and you die.");
                                 break;
                                 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 3: Instead of the artifact, you find a mysterious message written in an ancient script at the pond's bottom, you have wasted your time.");
                                 break;
                             }
                         break;
