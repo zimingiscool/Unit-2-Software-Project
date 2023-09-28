@@ -53,48 +53,48 @@ public class Main
 
                         case 2:
                             System.out.println("2) Fishing: You decide to fish in the pond, hoping to catch something useful.");
-                            System.out.println("Choices: \n1)\n2)\n3)\n4)");
+                            System.out.println("Choices: \n1)Cast Your Line Into The Pond\n2)Encounter Someone\n3) Suprise Catch\n4) Rest and Reflect");
                             int a2 = scanner.nextInt();
                             switch (a2)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 2: You decide to explore deeper into the forest, eventually discovering a hidden chest. The key fits perfectly, revealing the ancient artifact inside.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 4: As you fish, the water ripples, and a mysterious being emerges from the depths of the pond. It introduces itself as a guardian spirit of the forest and offers you a pointless advice.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 5: You decide to investigate further, discovering that the fish is indeed connected to the artifact. Its scales, when properly prepared, reveal hidden inscriptions leading you to the artifact's location, but the location doesn't exist.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 6:  You make the wise decision to leave the forest and find fulfillment in a different path, leaving the artifact behind but gaining a sense of contentment.");
                                 break;
                             }
                         break;
 
                         case 3:
                             System.out.println("3) Meditate: You sit by the pond and meditate, seeking inner guidance.");
-                            System.out.println("Choices: \n1)\n2)\n3)\n4)");
+                            System.out.println("Choices: \n1)See a Vision\n2) Recieve a Revelation\n3) The Enchanted Pond\n4) Enter a Tranquil Respite");
                             int a3 = scanner.nextInt();
                             switch (a3)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 3: As you meditate, you enter a deep state of trance. In your mind's eye, you see a vision of an ancient guardian spirit. The spirit imparts wisdom and guidance, revealing the location of the hidden artifact. You follow the spirit's instructions and successfully retrieve the artifact, becoming a legendary hero.");
 
                                 break;
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 7: During your meditation, you experience a profound sense of inner peace and clarity. Although you don't receive specific guidance about the artifact's location, you feel reinvigorated and determined. With newfound confidence, you continue your journey deeper into the forest, believing that you are on the right path to discover the artifact.");
                                 break;
 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 8: As you meditate, your presence at the pond attracts the attention of a mischievous water nymph. She emerges from the water and offers you a magical charm. The charm, while not directly revealing the artifact's location, provides you with protection and guidance throughout your quest. You thank the nymph and venture deeper into the forest, guided by the charm's mystical aura.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("Fake Ending 9: Your meditation by the pond brings you a deep sense of inner peace and tranquility. While you don't receive explicit guidance on the artifact's location, you decide to take a more patient and deliberate approach to your quest. You continue your journey at a leisurely pace, taking time to appreciate the beauty of the forest and the lessons it offers. Along the way, you encounter unexpected allies and slowly uncover the secrets of the Forest of Eternia, eventually leading you to the hidden artifact.");
                                 break;
                             }
                         break;
