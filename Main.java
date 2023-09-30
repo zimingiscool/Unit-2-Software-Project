@@ -174,31 +174,31 @@ public class Main
                                 break;
 
                                 case 4:
-                                    System.out.println("False Ending 18:");
+                                    System.out.println("False Ending 18: As you peer into the cave, the sheer darkness of the cave overwhelms you and you decide to put an end to your adventure.");
                                 break;
                             }
                         break;
 
                         case 3:
                             System.out.println("3) Gather Firewood: You search for firewood to light a torch and navigate the cave.");
-                            System.out.println("Choices: \n1) Light the Torch\n2) Explore with the Torch\n3) Rest by the Fire\n4) Extinguish the Torch");
+                            System.out.println("Choices: \n1) Light the Torch\n2) Throw away the torch\n3) Rest by the Fire\n4) Extinguish the Torch");
                             int b3 = scanner.nextInt();
                             switch (b3)
                             {
                                 case 1:
-                                    System.out.println("Real Ending 7:");
+                                    System.out.println("Real Ending 7: You gather firewood to create light within the cave, as you search deeper within the cave witht he help of your torch you find skeletal remainds of what seems to be a knight, as you look through his belongings you find the artifact.");
                                 break;
 
                                 case 2:
-                                    System.out.println("False Ending 19:");
+                                    System.out.println("False Ending 19: You throw away the torch, putting an end to your adventure.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("False Ending 20:");
+                                    System.out.println("False Ending 20: You rest by the fire, the warmth puts you to sleep putting an end to your adventure.");
                                 break;
 
                                 case 4:
-                                    System.out.println("False Ending 21:");
+                                    System.out.println("False Ending 21: You extinguis the torch, putting an end to your adventure.");
                                 break;
                             }
                         break;
@@ -210,19 +210,19 @@ public class Main
                             switch (b4)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 6: You decide to take a quick nap, in your dream you see a vision that gives you a clue telling you the artifact is behind the tree you're sleeping against. You collect the artifact putting a end to your adventure.");
                                 break;
-
+                            
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 22: You wake up rejuvinated but you realize you had lost track of time, and decide to head home.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 23: You daydream in deep thought for what seems like a few hours, when you wake up you realize you had lost track of time and decide to head home.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 24: You examine your equipment realizing you forgot to pack important rations, you head home to fetch your items putting an end to your adventure.");
                                 break;
                             }
                         break;
@@ -242,19 +242,19 @@ public class Main
                             switch (c1)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 7: ");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 25: ");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 26: ");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 27: ");
                                 break;
                             }
                         break;
