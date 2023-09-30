@@ -138,19 +138,19 @@ public class Main
                             switch (b1)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 5: You follow the glowing light, as you approach the light you find the artifact you have been searching for at long last.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 13: ");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 14: ");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 15");
                                 break;
                             }
                         break;
