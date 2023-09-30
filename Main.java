@@ -242,91 +242,91 @@ public class Main
                             switch (c1)
                             {
                                 case 1:
-                                    System.out.println("Real Ending 7: ");
+                                    System.out.println("Real Ending 7: You encounter a kind hermit that decides to tell you the location of the artifact as he saw that you had a pure heart. You find the artifact and thank the hermit, putting an end to your adventure.");
                                 break;
 
                                 case 2:
-                                    System.out.println("False Ending 25: ");
+                                    System.out.println("False Ending 25: You discover a hidden path in the woods, you decide to head down leading you to a even darker forest leaving you lost. You decide to abandon the search of the artifact in order to escape.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("False Ending 26: ");
+                                    System.out.println("False Ending 26: You encounter a hostile wild beast. You decide to fight the beast leaving you injured with a scar, you decide to abandon your adventure seeking vengance against the beast in the future.");
                                 break;
 
                                 case 4:
-                                    System.out.println("False Ending 27: ");
+                                    System.out.println("False Ending 27: You press forward deeper into the forest, as you continue walking you seem to loose track of time and find yourself lost in the forst. You decide to abandon the search in order to escape.");
                                 break;
                             }
                         break;
 
                         case 2:
                             System.out.println("2) Return to the Entrance: You decide to turn back and explore a different path.");
-                            System.out.println("Choices: \n1) Rest at the Entrance\n2) Consult Your Map\n3) Explore a Different Path\n4) Set Up Camp");
+                            System.out.println("Choices: \n1) Retrace Path\n2) Wander Deeper\n3) Explore a Different Path\n4) Set Up Camp");
                             int c2 = scanner.nextInt();
                             switch (c2) 
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 8: As you retrace your steps and return to the entrance of the forest, you notice something glittering beneath the roots of a massive oak tree. You dig with your hands and unearth the long-lost artifact! With the artifact in your possession, you return home as a hero, having accomplished what so many others failed to do.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 28: Upon returning to the entrance, you realize that the forest has shifted its paths, and you're hopelessly lost. No matter which direction you choose, you can't seem to find your way out. Days turn into weeks, and you become a lost soul, wandering the endless maze of the Forest of Eternia.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 29: As you head back to the entrance exploring a different path, you are suddenly surrounded by ethereal forest spirits. They accuse you of disturbing the balance of the forest by seeking the artifact and decide to punish you. You're imprisoned in a magical cage and become a guardian of the forest for eternity.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 30: As you set up camp you experience a strange sensation, and suddenly, you find yourself back at the entrance once again. It seems you're trapped in a time loop, reliving the same moment over and over. No matter how many times you try to change your path, you always end up right back here.");
                                 break;
                             }
                         break;
 
                         case 3:
                             System.out.println("3) Climb a Tree: You climb a tree to get a better view of your surroundings.");
-                            System.out.println("Choices: \n1) Gain a Bird's Eye View\n2) Spot an Unusual Plant\n3) Treehouse Discovery\n4) Descend Safely");
+                            System.out.println("Choices: \n1) Gain a Bird's Eye View\n2) Look Around\n3) Look On Branches\n4) Descend Safely");
                             int c3 = scanner.nextInt();
                             switch (c3)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 9: As you climb the tree, you spot a glimmering object high up in the branches. You reach for it and discover the long-lost artifact you were searching for! With the artifact in your possession, you become a legendary hero known throughout the land for your bravery and intelligence.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 31: While looking around on the tree, you lose your footing and fall to the ground. Fortunately, you escape with only a few scratches, but you didn't find the artifact. You abandon your quest due to this life threatening experience.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 32: You reach a high branch and notice a small, shiny object wedged between two branches. Excitedly, you grab it, only to realize it's just a piece of discarded jewelry, not the artifact you seek. Disheartened, you climb down and abandon your journey.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 33: While climbing down the tree, you spot a group of bandits approaching your location. You quickly descend and hide in the bushes. The bandits pass by, unaware of your presence. You realize that this forest is extremely dangerous and decide to abandon your journey.");
                                 break;
                             }
                         break;
 
                         case 4:
                             System.out.println("4) Rest: You take a moment to rest and catch your breath.");
-                            System.out.println("Choices: \n1) Reflect on Your Journey\n2) Inspect Your Gear\n3) Uncover a Hidden Message\n4) Meditation");
+                            System.out.println("Choices: \n1) Relax Your Breathing\n2) Inspect Your Gear\n3) Uncover a Hidden Message\n4) Meditation");
                             int c4 = scanner.nextInt();
                             switch (c4)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 10: You decide to take a moment to rest and catch your breath. As you sit down, you notice a glimmer in the grass nearby. You reach down and discover a small, ancient medallion—the very artifact you were seeking! It seems that fate has rewarded your patience and determination. With the artifact in hand, you return from the forest victorious, your quest fulfilled. You are hailed as a hero and become a legend in your own right.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 34: While inspecting your gear, you accidentally drop your map into a nearby river, rendering it unreadable. Without the map, you wander aimlessly in the forest and never find the artifact.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 35: You stumble upon a message that seems promising, but it turns out to be a cleverly disguised trap set by forest creatures. You fall into their snare and become their prisoner, never to complete your quest.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 36: As you meditate for 5 hours, you realize you have stupidly wasted your time and decide to go home.");
                                 break;
                             }
                         break;
@@ -347,19 +347,19 @@ public class Main
                             switch (d1)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 11: As you cautiously inspect the cornfield, you notice something unusual buried beneath the cornstalks. You start to dig, and to your amazement, you uncover a hidden chest. With trembling hands, you open it to reveal the legendary artifact—the source of untold power. Your quest is a success, and you emerge from the cornfield victorious, clutching the artifact tightly in your grasp. You have become a legendary figure in the realm.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 37: As you venture into the corn maze, you quickly become disoriented and lost. Hours turn into days as you wander aimlessly through the twisting passages, unable to find your way out. Exhausted and hungry, you eventually collapse, and your quest ends in failure. Your fate remains unknown to the world.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 38: While exploring the cornfield, you encounter a friendly scarecrow who offers you some cryptic advice about the artifact's location. You follow the scarecrow's guidance but soon realize it was a wild goose chase. The scarecrow's intentions were unclear, and you end up empty-handed, wondering if it was all a prank.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 39: You decide to take a break and rest in the cornfield. As you lay down, the rustling of the cornstalks lulls you to sleep. When you wake up, you find yourself surrounded by an army of mischievous cornfield creatures who have stolen your supplies. They lead you out of the cornfield, leaving you empty-handed and bewildered, with no sign of the artifact.");
                                 break;
                             }
                         break;
@@ -371,19 +371,19 @@ public class Main
                             switch (d2)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 12: You decide to harvest the ripe wheat in the field. As you gather the golden stalks, you notice a glint of metal buried beneath the crops. You unearth a beautifully crafted amulet, radiating with a faint, mystical energy. This must be the lost artifact you were seeking! Your quest is a success, and you leave the Wheat Field with the artifact in your possession, feeling triumphant and fulfilled. You've achieved your goal and can return as a hero.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 40: You venture into the wheat field, hoping to find a shortcut or hidden path. However, the dense wheat soon becomes a labyrinth, and you lose your way. Hours turn into days as you wander aimlessly, unable to find an exit. Exhausted and hungry, you eventually collapse in the maze, never to be seen again.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 41: As you approach the scarecrow, it suddenly springs to life, revealing itself as a guardian of the field. It warns you that the artifact is not meant for outsiders and attacks. Despite your best efforts, you're overpowered by the animated scarecrow and are forced to retreat from the field, your quest ending in failure.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 42: You decide to rest in the wheat field, lulled by the gentle rustling of the crops. However, your nap is interrupted by a group of bandits who had been hiding in the field. They steal your belongings and leave you stranded in the middle of the field, defeated and humiliated. Your quest for the artifact ends in disappointment.");
                                 break;
                             }
                         break;
@@ -395,19 +395,19 @@ public class Main
                             switch (d3)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 13: You choose to investigate the puzzle in the rice field. As you approach, you discover an ancient, ornate chest half-buried in the mud. It's covered in strange markings. After hours of deciphering the symbols, you unlock the chest to reveal the Lost Artifact, a magnificent gem that radiates with immense power. You've successfully completed your quest and secured the artifact. With it, you become a legendary hero, known throughout the land for your courage and wit.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 43: You decide to follow the path to the Rice Field River. As you reach the riverbank, you notice a beautiful, shimmering object in the water. You reach for it and find a simple, polished stone. It's a charming souvenir from your journey, but it's not the Lost Artifact. You continue your adventure, knowing that your true quest is still ahead.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 44: You choose the path leading to the Rice Field Encounter. As you explore, you come across a group of friendly villagers who invite you to join their harvest celebration. While you enjoy their company and partake in the festivities, you realize that the Lost Artifact is not among them. Your quest remains unfulfilled, but you've made new friends along the way.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 45: Feeling tired and weary, you decide to rest by the rice field. As you lie down to rest, you close your eyes and drift into a deep sleep. When you wake up, the day has passed, and you've missed your chance to continue your quest. You return home, your dreams of finding the Lost Artifact unfulfilled.");
                                 break;
                             }
                         break;
@@ -419,19 +419,19 @@ public class Main
                             switch (d4)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 14: You decide to collect blueberries, carefully picking the ripest ones from the bushes. As you gather them in your basket, you notice a soft humming sound around you. The Blueberry Field Faeries, enchanted creatures who protect the field, reveal themselves. They are delighted with your respect for their home and offer you a gift—a small vial of magical blueberry essence that grants enhanced vitality and strength. You thank the faeries and continue your quest deep into the forest, carrying the essence that will prove invaluable in your search for the Lost Artifact.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 46: You choose to rest in the Blueberry Field, lying down among the bushes. The scent of ripe blueberries lulls you into a deep, peaceful slumber. When you wake up, you discover that you've slept for days, and the sun is setting. You've lost precious time, and the artifact remains elusive. You continue your journey, but with a sense of urgency, realizing that time is not on your side.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 47: Opting for an imaginative journey, you decide to meet the Blueberry Field Faeries by pretending they're there. You have a whimsical conversation with your imaginary faeries, but it doesn't lead to any tangible outcomes. After a while, you leave the Blueberry Field with fond memories of your imaginary encounter, though it doesn't bring you any closer to finding the Lost Artifact.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 48: You choose to meditate in the Blueberry Field, hoping to find inner peace and guidance. While the meditation is calming and rejuvenating, it doesn't yield any insights or progress in your quest for the Lost Artifact. As you open your eyes, you realize that the sun has moved across the sky, and you've spent a considerable amount of time in contemplation. You continue your journey, hoping that the answers will reveal themselves in due time.");
                                 break;
                             }
                         break;
