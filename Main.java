@@ -8,11 +8,11 @@ public class Main
     {
         //Variables
         int progression = 0;
-        boolean balls = true;
+        boolean running = true;
 
         Scanner scanner = new Scanner(System.in);        
-        //Create Story Switch Statement
-        while(balls == true)
+        //While loop ensure the story continues until the user finishes the game.
+        while(running == true)
         {
             System.out.println("You are in a forest on an adventure. Make a move");
             System.out.println("Choices: \n1) You enter a straight path\n2) You enter left path.\n3) You enter right path\n4) Path behind you");
@@ -34,7 +34,7 @@ public class Main
                             {
                                 case 1:
                                     System.out.println("Real Ending 1: \nAs you carefully search the pond's bottom, your fingers brush against something hard and metallic. You pull it out, and to your astonishment, it's the artifact you've been seeking all along! With the powerful artifact in hand, you feel a surge of confidence and set off on your journey to unlock its secrets.");
-                                    balls = false;
+                                    running = false;
                                 break;
 
                                 case 2:
@@ -53,7 +53,7 @@ public class Main
 
                         case 2:
                             System.out.println("2) Fishing: You decide to fish in the pond, hoping to catch something useful.");
-                            System.out.println("Choices: \n1)Cast Your Line Into The Pond\n2)Encounter Someone\n3) Suprise Catch\n4) Rest and Reflect");
+                            System.out.println("Choices: \n1) Cast Your Line Into The Pond\n2) Encounter Someone\n3) Suprise Catch\n4) Rest and Reflect");
                             int a2 = scanner.nextInt();
                             switch (a2)
                             {
@@ -77,7 +77,7 @@ public class Main
 
                         case 3:
                             System.out.println("3) Meditate: You sit by the pond and meditate, seeking inner guidance.");
-                            System.out.println("Choices: \n1)See a Vision\n2) Recieve a Revelation\n3) The Enchanted Pond\n4) Enter a Tranquil Respite");
+                            System.out.println("Choices: \n1) See a Vision\n2) Recieve a Revelation\n3) The Enchanted Pond\n4) Enter a Tranquil Respite");
                             int a3 = scanner.nextInt();
                             switch (a3)
                             {
@@ -101,24 +101,24 @@ public class Main
 
                         case 4:
                             System.out.println("4) Rest: You take a peaceful rest by the pond.");
-                            System.out.println("Choices: \n1)\n2)\n3)\n4)");
+                            System.out.println("Choices: \n1) Unexpected Discovery \n2) Find Serenity \n3) Ambushed\n4) Theives");
                             int a4 = scanner.nextInt();
                             switch (a4)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 1: While resting, you notice a glimmer beneath the pond's surface. Curiosity piqued, you reach into the water and retrieve an ancient amulet. This amulet is rumored to be a key to finding the hidden artifact. With this newfound treasure, you decide to continue your quest with renewed determination.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 10: During your peaceful rest by the pond, you connect with the tranquil surroundings. The gentle rustling of leaves, the chirping of birds, and the soothing sound of the flowing water help you find inner peace. You realize that the true treasure was the serenity of nature itself. You decide to leave the quest for the artifact behind and dedicate your life to preserving the forest's beauty.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 11: During your rest, you let your guard down. Unbeknownst to you, the forest is not as peaceful as it seems. Suddenly, a group of bandits ambushes you, demanding your valuables. In the ensuing struggle, you manage to escape but lose some of your supplies and face injuries. You decide to give up on the quest.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 12: While you rest, a group of forest creatures becomes curious about your presence. They are friendly at first, but as you sleep, they playfully snatch some of your belongings, including your map and supplies. You decide to give up on your quest.");
                                 break;
                             }
                         break;
@@ -142,15 +142,15 @@ public class Main
                                 break;
 
                                 case 2:
-                                    System.out.println("False Ending 13: ");
+                                    System.out.println("False Ending 13: You decide to investigate the strange sound, as you approach the sound you find yourself lost inside the cave putting an end to your adventure.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("False Ending 14: ");
+                                    System.out.println("False Ending 14: You use the torch to investigate the cave to no avail. You decide to put an end to your adventure.");
                                 break;
 
                                 case 4:
-                                    System.out.println("False Ending 15");
+                                    System.out.println("False Ending 15: You decide to retreat out of the cave, putting an end to your adventure.");
                                 break;
                             }
                         break;
@@ -162,19 +162,19 @@ public class Main
                             switch (b2)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 6: You decide to turn back and explore a different path. As you return to the forest entrance, you hear a faint whisper in the wind, calling you to revisit your choices.\nAs you continue to the sound of the whisper, you discover the artifact.");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 16: You rest at the cave entrance, you eventually fall asleep and wake up. You decide you are too fatigued and head home abandoning your adventure.");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 17: You decide to gather supplies in the cave, as time passes you realize you are lost. You give up your search of the artifact in search of the cave exit.");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 18:");
                                 break;
                             }
                         break;
@@ -186,19 +186,19 @@ public class Main
                             switch (b3)
                             {
                                 case 1:
-                                    System.out.println("");
+                                    System.out.println("Real Ending 7:");
                                 break;
 
                                 case 2:
-                                    System.out.println("");
+                                    System.out.println("False Ending 19:");
                                 break;
                                 
                                 case 3:
-                                    System.out.println("");
+                                    System.out.println("False Ending 20:");
                                 break;
 
                                 case 4:
-                                    System.out.println("");
+                                    System.out.println("False Ending 21:");
                                 break;
                             }
                         break;
