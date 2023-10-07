@@ -405,7 +405,7 @@ public class Main
                     }
                 break;
                 case 4:
-                    System.out.println("You back to a large field of farms");
+                    System.out.println("You go back to a large field of farms");
                     System.out.println("Choices: \n1) Walk towards the cornfield\n2) Walk towards the wheat field\n3) Walk towards the rice field\n4) Walk towards a blueberry field");
                     int d = scanner.nextInt();
                     progression++;
